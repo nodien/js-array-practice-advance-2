@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Exercise 3</title>
+</head>
+<body>
+<h1>Count Digits in Array</h1>
+<script>
+  const chars = ['a', '1', 'b', '9', 'z', '0', '-', '3', 'C'];
+  let count = 0;
+
+  for (let ch of chars) {
+    if (ch >= '0' && ch <= '9') count++;
+  }
+
+  document.write("Digits count: " + count);
+</script>
+</body>
+</html>
